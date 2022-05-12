@@ -142,3 +142,37 @@ h1 {
     padding: 1rem;
   }
 }
+
+#s1:checked ~ .slider__controls > label > #btn1,
+#s2:checked ~ .slider__controls > label > #btn2,
+#s3:checked ~ .slider__controls > label > #btn3,
+#s4:checked ~ .slider__controls > label > #btn4,
+#s5:checked ~ .slider__controls > label > #btn5 {
+  background-color: var(--color-active);
+  border: none;
+}
+
+#s1:checked ~ .slider__images > .images__line,
+#s1:checked ~ .slider__text > .text__line {
+  margin-left: 0%;
+}
+
+#s2:checked ~ .slider__images > .images__line,
+#s2:checked ~ .slider__text > .text__line {
+  margin-left: -100%;
+}
+
+#s3:checked ~ .slider__images > .images__line,
+#s3:checked ~ .slider__text > .text__line {
+  margin-left: -200%;
+}
+
+#s4:checked ~ .slider__images > .images__line,
+#s4:checked ~ .slider__text > .text__line {
+  margin-left: -300%;
+}
+
+#s5:checked ~ .slider__images > .images__line,
+#s5:checked ~ .slider__text > .text__line {
+  margin-left: -400%;
+}
