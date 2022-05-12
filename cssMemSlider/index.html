@@ -4,8 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>cssMemSlider</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <h1>cssMemSlider</h1>
+
+      <div class="slider">
+        <input class="radio" type="radio" name="slide" id="s1" checked />
+        <input class="radio" type="radio" name="slide" id="s2" />
+        <input class="radio" type="radio" name="slide" id="s3" />
+        <input class="radio" type="radio" name="slide" id="s4" />
+        <input class="radio" type="radio" name="slide" id="s5" />
+
+        <div class="slider__images">
+          <div class="images__line">
+            <div class="meme_img">
+              <img src="./assets/images/1.jpg" alt="meme" />
+            </div>
+            <div class="meme_img">
+              <img src="./assets/images/2.jpg" alt="meme" />
+            </div>
+            <div class="meme_img">
+              <img src="./assets/images/3.jpeg" alt="meme" />
+            </div>
+            <div class="meme_img">
+              <img src="./assets/images/4.jpg" alt="meme" />
+            </div>
+            <div class="meme_img">
+              <img src="./assets/images/5.jpg" alt="meme" />
+            </div>
+          </div>
+        </div>
+
+        <div class="slider__text">
+          <div class="text__line">
+            <p class="text">Welcome, my friend)</p>
+            <p class="text">I hope, you enjoyed my slider)</p>
+            <p class="text">Don't forget to leave a positive feedback)</p>
+            <p class="text">Thank you!)</p>
+            <p class="text">And have a nice day)</p>
+          </div>
+        </div>
+
+        <div class="slider__controls">
+          <label for="s1"><div class="control__btn" id="btn1"></div></label>
+          <label for="s2"><div class="control__btn" id="btn2"></div></label>
+          <label for="s3"><div class="control__btn" id="btn3"></div></label>
+          <label for="s4"><div class="control__btn" id="btn4"></div></label>
+          <label for="s5"><div class="control__btn" id="btn5"></div></label>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
