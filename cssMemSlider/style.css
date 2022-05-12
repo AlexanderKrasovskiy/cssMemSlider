@@ -113,3 +113,32 @@ h1 {
 .slider__controls > label:hover > .control__btn {
   background-color: var(--color-text);
 }
+
+@media screen and (max-width: 48rem) {
+  h1 {
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .slider__images {
+    order: 1;
+  }
+
+  .slider__text {
+    width: 100%;
+    order: 3;
+    margin-top: 0.5rem;
+  }
+
+  .slider__controls {
+    width: 100%;
+    order: 2;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider__controls > label {
+    padding: 1rem;
+  }
+}
