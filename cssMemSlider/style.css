@@ -102,6 +102,12 @@ h1 {
   cursor: pointer;
 }
 
+.slider__controls > label:active > div.control__btn {
+  transform: scale(1.6);
+  background-color: greenyellow;
+  border-color: greenyellow;
+}
+
 .control__btn {
   width: 1rem;
   height: 1rem;
